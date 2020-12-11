@@ -73,7 +73,7 @@ value = 1;
 date = "2020-12-10 14:18:21 +0000";
 designer = "Kostas Bartsokas";
 designerURL = www.kostasbartsokas.gr;
-familyName = "Oi!One";
+familyName = Oi;
 featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;
@@ -61583,7 +61583,7 @@ interpolationCustom = 1;
 instanceInterpolations = {
 "863809E3-B3D3-4728-B9C6-73F0AB5A9F00" = 1;
 };
-name = "You!";
+name = Regular;
 }
 );
 kerning = {

@@ -23,7 +23,26 @@ be determined.
 
 	And these are the most common STAT axis orderings:
 	 [code: summary]
-* 💤 **SKIP** This font does not have a STAT table: ../fonts/ttf/Oi!One-You!.ttf [code: missing-STAT]
+* 💤 **SKIP** This font does not have a STAT table: ../fonts/ttf/Oi-Regular.ttf [code: missing-STAT]
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> All tabular figures must have the same width across the RIBBI-family.</summary>
+
+* [com.google.fonts/check/family/tnum_horizontal_metrics](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/family/tnum_horizontal_metrics)
+<pre>--- Rationale ---
+
+Tabular figures need to have the same metrics in all styles in order to allow
+tables to be set with proper typographic control, but to maintain the placement
+of decimals and numeric columns between rows.
+
+Here&#x27;s a good explanation of this:
+https://www.typography.com/techniques/fonts-for-financials/#tabular-figs
+
+
+</pre>
+
+* 🍞 **PASS** OK
 
 </details>
 <details>
@@ -117,6 +136,25 @@ line spacing is consistent across the family.
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Check that OS/2.fsSelection bold & italic settings are unique for each NameID1</summary>
+
+* [com.adobe.fonts/check/family/bold_italic_unique_for_nameid1](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/os2.html#com.adobe.fonts/check/family/bold_italic_unique_for_nameid1)
+<pre>--- Rationale ---
+
+Per the OpenType spec: name ID 1 &#x27;is used in combination with Font Subfamily
+name (name ID 2), and should be shared among at most four fonts that differ
+only in weight or style...
+
+This four-way distinction should also be reflected in the OS/2.fsSelection
+field, using bits 0 and 5.
+
+
+</pre>
+
+* 🍞 **PASS** The OS/2.fsSelection bold & italic settings were unique within each compatible family group.
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Fonts have consistent underline thickness?</summary>
 
 * [com.google.fonts/check/family/underline_thickness](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/post.html#com.google.fonts/check/family/underline_thickness)
@@ -171,44 +209,6 @@ value ranges accross all the files.
 
 </details>
 <details>
-<summary>💤 <b>SKIP:</b> All tabular figures must have the same width across the RIBBI-family.</summary>
-
-* [com.google.fonts/check/family/tnum_horizontal_metrics](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/family/tnum_horizontal_metrics)
-<pre>--- Rationale ---
-
-Tabular figures need to have the same metrics in all styles in order to allow
-tables to be set with proper typographic control, but to maintain the placement
-of decimals and numeric columns between rows.
-
-Here&#x27;s a good explanation of this:
-https://www.typography.com/techniques/fonts-for-financials/#tabular-figs
-
-
-</pre>
-
-* 💤 **SKIP** Unfulfilled Conditions: RIBBI_ttFonts
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> Check that OS/2.fsSelection bold & italic settings are unique for each NameID1</summary>
-
-* [com.adobe.fonts/check/family/bold_italic_unique_for_nameid1](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/os2.html#com.adobe.fonts/check/family/bold_italic_unique_for_nameid1)
-<pre>--- Rationale ---
-
-Per the OpenType spec: name ID 1 &#x27;is used in combination with Font Subfamily
-name (name ID 2), and should be shared among at most four fonts that differ
-only in weight or style...
-
-This four-way distinction should also be reflected in the OS/2.fsSelection
-field, using bits 0 and 5.
-
-
-</pre>
-
-* 💤 **SKIP** Unfulfilled Conditions: RIBBI_ttFonts
-
-</details>
-<details>
 <summary>⚠ <b>WARN:</b> Is the command `ftxvalidator` (Apple Font Tool Suite) available?</summary>
 
 * [com.google.fonts/check/ftxvalidator_is_available](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ftxvalidator_is_available)
@@ -234,7 +234,7 @@ https://github.com/googlefonts/fontbakery/blob/master/prebuilt/workarounds
 <br>
 </details>
 <details>
-<summary><b>[179] Oi!One-You!.ttf</b></summary>
+<summary><b>[179] Oi-Regular.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Show hinting filesize impact.</summary>
 
@@ -264,55 +264,6 @@ installed in the system.
 </pre>
 
 * 💔 **ERROR** The check <FontBakeryCheck:com.google.fonts/check/old_ttfautohint> had an error: FailedConditionError: The condition <FontBakeryCondition:hinting_stats> had an error: OSError: Could not find the libc shared library
-
-</details>
-<details>
-<summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com</summary>
-
-* [com.google.fonts/check/fontdata_namecheck](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck)
-<pre>--- Rationale ---
-
-We need to check names are not already used, and today the best place to check
-that is http://namecheck.fontdata.com
-
-
-</pre>
-
-* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
-		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
-
-		You can exclude this check with the command line option:
-		-x com.google.fonts/check/fontdata_namecheck
-
-		Or you can wait until the service is available again.
-		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
-
-		Original error message:
-		<class 'requests.exceptions.ReadTimeout'> [code: namecheck-service]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
-
-* [com.google.fonts/check/canonical_filename](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename)
-<pre>--- Rationale ---
-
-A font&#x27;s filename must be composed in the following manner:
-&lt;familyname&gt;-&lt;stylename&gt;.ttf
-
-- Nunito-Regular.ttf,
-- Oswald-BoldItalic.ttf
-
-Variable fonts must list the axis tags in alphabetical order in square brackets
-and separated by commas:
-
-- Roboto[wdth,wght].ttf
-- Familyname-Italic[wght].ttf
-
-
-</pre>
-
-* 🔥 **FAIL** Style name used in "../fonts/ttf/Oi!One-You!.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
 
 </details>
 <details>
@@ -1464,7 +1415,7 @@ Check METADATA.pb file includes the same subsets as the family in production.
 
 * [com.google.fonts/check/metadata/nameid/font_name](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/nameid/font_name)
 
-* 💤 **SKIP** Unfulfilled Conditions: font_metadata, style
+* 💤 **SKIP** Unfulfilled Conditions: font_metadata
 
 </details>
 <details>
@@ -1488,7 +1439,7 @@ Check METADATA.pb file includes the same subsets as the family in production.
 
 * [com.google.fonts/check/metadata/valid_name_values](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/valid_name_values)
 
-* 💤 **SKIP** Unfulfilled Conditions: style, font_metadata
+* 💤 **SKIP** Unfulfilled Conditions: font_metadata
 
 </details>
 <details>
@@ -1496,7 +1447,7 @@ Check METADATA.pb file includes the same subsets as the family in production.
 
 * [com.google.fonts/check/metadata/valid_full_name_values](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/valid_full_name_values)
 
-* 💤 **SKIP** Unfulfilled Conditions: style, font_metadata
+* 💤 **SKIP** Unfulfilled Conditions: font_metadata
 
 </details>
 <details>
@@ -1504,7 +1455,7 @@ Check METADATA.pb file includes the same subsets as the family in production.
 
 * [com.google.fonts/check/metadata/valid_filename_values](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/valid_filename_values)
 
-* 💤 **SKIP** Unfulfilled Conditions: style, family_metadata
+* 💤 **SKIP** Unfulfilled Conditions: family_metadata
 
 </details>
 <details>
@@ -1678,101 +1629,11 @@ range includes 400, otherwise it should be the value closest to 400.
 
 </details>
 <details>
-<summary>💤 <b>SKIP:</b> Checking OS/2 fsSelection value.</summary>
-
-* [com.google.fonts/check/fsselection](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fsselection)
-
-* 💤 **SKIP** Unfulfilled Conditions: style
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> Checking post.italicAngle value.</summary>
-
-* [com.google.fonts/check/italic_angle](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/italic_angle)
-<pre>--- Rationale ---
-
-The &#x27;post&#x27; table italicAngle property should be a reasonable amount, likely not
-more than -20°, never more than -30°, and never greater than 0°. Note that in
-the OpenType specification, the value is negative for a lean rightwards.
-
-https://docs.microsoft.com/en-us/typography/opentype/spec/post
-
-
-</pre>
-
-* 💤 **SKIP** Unfulfilled Conditions: style
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> Checking head.macStyle value.</summary>
-
-* [com.google.fonts/check/mac_style](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/mac_style)
-<pre>--- Rationale ---
-
-The values of the flags on the macStyle entry on the &#x27;head&#x27; OpenType table that
-describe whether a font is bold and/or italic must be coherent with the actual
-style of the font as inferred by its filename.
-
-
-</pre>
-
-* 💤 **SKIP** Unfulfilled Conditions: style
-
-</details>
-<details>
 <summary>💤 <b>SKIP:</b> Copyright field for this font on METADATA.pb matches all copyright notice entries on the name table ?</summary>
 
 * [com.google.fonts/check/metadata/nameid/copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/nameid/copyright)
 
 * 💤 **SKIP** Unfulfilled Conditions: font_metadata
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> Font has all mandatory 'name' table entries?</summary>
-
-* [com.google.fonts/check/name/mandatory_entries](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/mandatory_entries)
-
-* 💤 **SKIP** Unfulfilled Conditions: style
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> Check name table: FONT_FAMILY_NAME entries.</summary>
-
-* [com.google.fonts/check/name/familyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname)
-<pre>--- Rationale ---
-
-Checks that the family name infered from the font filename matches the string
-at nameID 1 (NAMEID_FONT_FAMILY_NAME) if it conforms to RIBBI and otherwise
-checks that nameID 1 is the family name + the style name.
-
-
-</pre>
-
-* 💤 **SKIP** Unfulfilled Conditions: style
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> Check name table: FULL_FONT_NAME entries.</summary>
-
-* [com.google.fonts/check/name/fullfontname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname)
-
-* 💤 **SKIP** Unfulfilled Conditions: style_with_spaces
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> Check name table: POSTSCRIPT_NAME entries.</summary>
-
-* [com.google.fonts/check/name/postscriptname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/postscriptname)
-
-* 💤 **SKIP** Unfulfilled Conditions: style
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries.</summary>
-
-* [com.google.fonts/check/name/typographicfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname)
-
-* 💤 **SKIP** Unfulfilled Conditions: style
 
 </details>
 <details>
@@ -2530,16 +2391,27 @@ checks.
 
 </details>
 <details>
-<summary>ℹ <b>INFO:</b> Font follows the family naming recommendations?</summary>
+<summary>🍞 <b>PASS:</b> Checking file is named canonically.</summary>
 
-* [com.google.fonts/check/family_naming_recommendations](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/family_naming_recommendations)
+* [com.google.fonts/check/canonical_filename](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename)
+<pre>--- Rationale ---
 
-* ℹ **INFO** Font does not follow some family naming recommendations:
+A font&#x27;s filename must be composed in the following manner:
+&lt;familyname&gt;-&lt;stylename&gt;.ttf
 
-| Field | Value | Recommendation |
-|:----- |:----- |:-------------- |
-| PostScript Name | Oi!One-You! | May contain only a-zA-Z0-9 characters and an hyphen. |
- [code: bad-entries]
+- Nunito-Regular.ttf,
+- Oswald-BoldItalic.ttf
+
+Variable fonts must list the axis tags in alphabetical order in square brackets
+and separated by commas:
+
+- Roboto[wdth,wght].ttf
+- Familyname-Italic[wght].ttf
+
+
+</pre>
+
+* 🍞 **PASS** ../fonts/ttf/Oi-Regular.ttf is named canonically.
 
 </details>
 <details>
@@ -2757,11 +2629,104 @@ increases.
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Checking OS/2 fsSelection value.</summary>
+
+* [com.google.fonts/check/fsselection](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fsselection)
+
+* 🍞 **PASS** OS/2 fsSelection REGULAR bit is properly set.
+* 🍞 **PASS** OS/2 fsSelection ITALIC bit is properly set.
+* 🍞 **PASS** OS/2 fsSelection BOLD bit is properly set.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Checking post.italicAngle value.</summary>
+
+* [com.google.fonts/check/italic_angle](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/italic_angle)
+<pre>--- Rationale ---
+
+The &#x27;post&#x27; table italicAngle property should be a reasonable amount, likely not
+more than -20°, never more than -30°, and never greater than 0°. Note that in
+the OpenType specification, the value is negative for a lean rightwards.
+
+https://docs.microsoft.com/en-us/typography/opentype/spec/post
+
+
+</pre>
+
+* 🍞 **PASS** Value of post.italicAngle is 0.0 with style="Regular".
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Checking head.macStyle value.</summary>
+
+* [com.google.fonts/check/mac_style](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/mac_style)
+<pre>--- Rationale ---
+
+The values of the flags on the macStyle entry on the &#x27;head&#x27; OpenType table that
+describe whether a font is bold and/or italic must be coherent with the actual
+style of the font as inferred by its filename.
+
+
+</pre>
+
+* 🍞 **PASS** head macStyle ITALIC bit is properly set.
+* 🍞 **PASS** head macStyle BOLD bit is properly set.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Font has all mandatory 'name' table entries?</summary>
+
+* [com.google.fonts/check/name/mandatory_entries](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/mandatory_entries)
+
+* 🍞 **PASS** Font contains values for all mandatory name table entries.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Check name table: FONT_FAMILY_NAME entries.</summary>
+
+* [com.google.fonts/check/name/familyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname)
+<pre>--- Rationale ---
+
+Checks that the family name infered from the font filename matches the string
+at nameID 1 (NAMEID_FONT_FAMILY_NAME) if it conforms to RIBBI and otherwise
+checks that nameID 1 is the family name + the style name.
+
+
+</pre>
+
+* 🍞 **PASS** FONT_FAMILY_NAME entries are all good. [code: ok]
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Check name table: FONT_SUBFAMILY_NAME entries.</summary>
 
 * [com.google.fonts/check/name/subfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname)
 
 * 🍞 **PASS** FONT_SUBFAMILY_NAME entries are all good.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Check name table: FULL_FONT_NAME entries.</summary>
+
+* [com.google.fonts/check/name/fullfontname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname)
+
+* 🍞 **PASS** FULL_FONT_NAME entries are all good.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Check name table: POSTSCRIPT_NAME entries.</summary>
+
+* [com.google.fonts/check/name/postscriptname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/postscriptname)
+
+* 🍞 **PASS** POSTCRIPT_NAME entries are all good.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries.</summary>
+
+* [com.google.fonts/check/name/typographicfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname)
+
+* 🍞 **PASS** TYPOGRAPHIC_FAMILY_NAME entries are all good.
 
 </details>
 <details>
@@ -2787,6 +2752,21 @@ characters.
 </pre>
 
 * 🍞 **PASS** All copyright notice name entries on the 'name' table are shorter than 500 characters.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Familyname must be unique according to namecheck.fontdata.com</summary>
+
+* [com.google.fonts/check/fontdata_namecheck](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck)
+<pre>--- Rationale ---
+
+We need to check names are not already used, and today the best place to check
+that is http://namecheck.fontdata.com
+
+
+</pre>
+
+* 🍞 **PASS** Font familyname seems to be unique.
 
 </details>
 <details>
@@ -3373,6 +3353,14 @@ https://typedrawers.com/discussion/comment/45140/#Comment_45140
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Font follows the family naming recommendations?</summary>
+
+* [com.google.fonts/check/family_naming_recommendations](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/family_naming_recommendations)
+
+* 🍞 **PASS** Font follows the family naming recommendations.
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Name table ID 6 (PostScript name) must be consistent across platforms.</summary>
 
 * [com.adobe.fonts/check/name/postscript_name_consistency](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.adobe.fonts/check/name/postscript_name_consistency)
@@ -3631,5 +3619,5 @@ segments.
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 3 | 1 | 9 | 100 | 7 | 74 | 0 |
-| 2% | 1% | 5% | 52% | 4% | 38% | 0% |
+| 2 | 0 | 9 | 90 | 6 | 87 | 0 |
+| 1% | 0% | 5% | 46% | 3% | 45% | 0% |
