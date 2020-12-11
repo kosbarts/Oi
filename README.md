@@ -3,13 +3,13 @@ Oi is a display typeface designed by Kostas Bartsokas.
 ![](documentation/Oi-Joke.png) 
 
 ## Basic Information
-Oi! is an ultra-fat display typeface that has its roots in grotesque slab serifs, most specifically the style that sprung with the release of Caslon’s Ionic in 1844 and Clarendon by Fann Street Foundry in 1845.
+Oi is an ultra-fat display typeface that has its roots in grotesque slab serifs, most specifically the style that sprung with the release of Caslon’s Ionic in 1844 and Clarendon by Fann Street Foundry in 1845.
 
-Oi! is a free spirited twisted interpetation of the clarendonesques. With an unapologetic tendecy for public shouting, it is a whimsical loudmouth attention seeker!
+Oi is a free spirited twisted interpetation of the clarendonesques. With an unapologetic tendecy for public shouting, it is a whimsical loudmouth attention seeker!
 
 Oi is an interjection used in various languages. Its meaning varies, depending on the tone and abruptness of its use, from a simple “hi” or a call of attention to as far as a challenge to a fight.
 
-Oi! supports the Google Latin Plus, Latin Pro, Cyrillic Plus, Cyrillic Plus .locl, Cyrillic Pro, and Greek Core character sets. The typeface has received the TDC Award of Excellence in Type Design in 2018. 
+Oi supports the Google Latin Plus, Latin Pro, Cyrillic Plus, Cyrillic Plus .locl, Cyrillic Pro, and Greek Core character sets. The typeface has received the TDC Award of Excellence in Type Design in 2018. 
 
 Check out the [mini-site](https://kostasbartsokas.com/oi-you-mate/) designed by [Apostolos Christodoulou](https://github.com/a7sc11u) and give it a test. Read more about [the story of Oi!](https://blog.usejournal.com/the-story-of-oi-508d7027e67b)
 
