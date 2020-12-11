@@ -11,7 +11,7 @@ Oi is an interjection used in various languages. Its meaning varies, depending o
 
 Oi! supports the Google Latin Plus, Latin Pro, Cyrillic Plus, Cyrillic Plus .locl, Cyrillic Pro, and Greek Core character sets.
 
-Read more about [the story of Oi!](https://blog.usejournal.com/the-story-of-oi-508d7027e67b)
+Oi! has received the TDC Award of Excellence in Type Design, 2018. Check out the [minisite](https://kostasbartsokas.com/oi-you-mate/) designed by [Apostolos Christodoulou](https://github.com/a7sc11u) and give it a test. Read more about [the story of Oi!](https://blog.usejournal.com/the-story-of-oi-508d7027e67b)
 
 This typeface project received financial support from Google, and in the future may be available in Google Fonts.
 
