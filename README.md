@@ -70,7 +70,9 @@ If you want to build otf's do so through Glyphs using the source Glyphs file.
 
 ## ChangeLog
 
-This is version 2.000. Compared to the previous commercial version of the font (v.1.000) it introduces Vietnamese support and drops the shadowed style.
+This is version 2.000. 
+
+Compared to the previous commercial version of the font (v.1.000) it introduces Vietnamese support and drops the shadowed style. The default Y is also swapped with the previous ss01 version.
 
 ## License
 
