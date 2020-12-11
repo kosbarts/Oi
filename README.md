@@ -14,7 +14,13 @@ Oi! supports the Google Latin Plus, Latin Pro, Cyrillic Plus, Cyrillic Plus .loc
 Read more about [the story of Oi!](https://blog.usejournal.com/the-story-of-oi-508d7027e67b)
 
 This typeface project received financial support from Google, and in the future may be available in Google Fonts.
- 
+
+**Character Set**
+![](documentation/Oi-Char.png) 
+
+**Some cool opentype features**
+![](documentation/Oi-Feat.png) 
+
 **Language Support**
 <details>
 <summary>Expand</summary>
@@ -25,9 +31,46 @@ Greek: Monotonic Modern Greek.
 <p>
 </details>  
 
+## Building the fonts
+
+### Step 1: Install Requirements
+
+Set up a virtual environment in the root directory:
+
+```
+virtualenv -p python3 venv
+```
+
+Activate the virtual environment with:
+
+```
+source venv/bin/activate
+```
+
+Install requirements with:
+
+```
+pip install -U -r requirements.txt
+```
+
+### Step 2: Build the fonts
+
+**Building the fonts**
+
+The script for building the fonts is in the `/sources/` folder.
+
+To build a static ttf run:
+
+```
+cd sources
+sh build.sh
+```
+
+If you want to build otf's do so through Glyphs using the source Glyphs file. 
+
 ## ChangeLog
 
-This is version 2.000. No changes to report. 
+This is version 2.000. Compared to the previous commercial version of the font (v.1.000) it introduces Vietnamese support.
 
 ## License
 
