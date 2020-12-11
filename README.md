@@ -9,9 +9,9 @@ Oi! is a free spirited twisted interpetation of the clarendonesques. With an una
 
 Oi is an interjection used in various languages. Its meaning varies, depending on the tone and abruptness of its use, from a simple “hi” or a call of attention to as far as a challenge to a fight.
 
-Oi! supports the Google Latin Plus, Latin Pro, Cyrillic Plus, Cyrillic Plus .locl, Cyrillic Pro, and Greek Core character sets.
+Oi! supports the Google Latin Plus, Latin Pro, Cyrillic Plus, Cyrillic Plus .locl, Cyrillic Pro, and Greek Core character sets. The typeface has received the TDC Award of Excellence in Type Design in 2018. 
 
-Oi! has received the TDC Award of Excellence in Type Design, 2018. Check out the [minisite](https://kostasbartsokas.com/oi-you-mate/) designed by [Apostolos Christodoulou](https://github.com/a7sc11u) and give it a test. Read more about [the story of Oi!](https://blog.usejournal.com/the-story-of-oi-508d7027e67b)
+Check out the [minisite](https://kostasbartsokas.com/oi-you-mate/) designed by [Apostolos Christodoulou](https://github.com/a7sc11u) and give it a test. Read more about [the story of Oi!](https://blog.usejournal.com/the-story-of-oi-508d7027e67b)
 
 This typeface project received financial support from Google, and in the future may be available in Google Fonts.
 
@@ -70,7 +70,7 @@ If you want to build otf's do so through Glyphs using the source Glyphs file.
 
 ## ChangeLog
 
-This is version 2.000. Compared to the previous commercial version of the font (v.1.000) it introduces Vietnamese support.
+This is version 2.000. Compared to the previous commercial version of the font (v.1.000) it introduces Vietnamese support and drops the shadowed style.
 
 ## License
 
