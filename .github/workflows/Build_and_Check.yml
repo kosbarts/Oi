@@ -1,0 +1,53 @@
+name: Build and Check
+
+on: 
+  push:
+    branches: 
+    - main
+    paths:
+    - sources/**
+  pull_request:
+    branches: 
+    - main
+    paths:
+    - sources/**
+
+jobs:
+  static-font-ci-job:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    name: Build, Check and Upload fonts
+    steps:
+      - name: Check out Oi source repository
+        uses: actions/checkout@v2
+      - name: Set up Python v${{ matrix.python-version }} environment
+        uses: actions/setup-python@v1
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Python build dependency cache lookup
+        uses: actions/cache@v1
+        with:
+          path: ~/.cache/pip
+          # Check for requirements file cache hit
+          key: ${{ runner.os }}-pip-${{ hashFiles('${{ steps.config.outputs.dependpath }}') }}
+      - name: Install Python build dependencies
+        uses: py-actions/py-dependency-install@v2
+        with:
+          update-wheel: "true"
+          update-setuptools: "true"
+      - name: Build fonts
+        run: gftools builder sources/config.yaml
+      - name: Check with FontBakery
+        uses: f-actions/font-bakery@v1
+        with:
+          version: "latest"
+          subcmd: "check-googlefonts"
+          args: "-C --succinct --loglevel WARN --ghmarkdown fonts/report.md"
+          path: "fonts2/ttf/*.ttf"
+      - name: Upload Package
+        uses: actions/upload-artifact@v2
+        with:
+          name: Oi_Fonts_and_Report
+          path: fonts2/
