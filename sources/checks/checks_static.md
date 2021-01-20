@@ -1,6 +1,6 @@
 ## Fontbakery report
 
-Fontbakery version: 0.7.33
+Fontbakery version: 0.7.34
 
 <details>
 <summary><b>[15] Family checks</b></summary>
@@ -234,7 +234,7 @@ https://github.com/googlefonts/fontbakery/blob/master/prebuilt/workarounds
 <br>
 </details>
 <details>
-<summary><b>[179] Oi-Regular.ttf</b></summary>
+<summary><b>[180] Oi-Regular.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Show hinting filesize impact.</summary>
 
@@ -264,79 +264,6 @@ installed in the system.
 </pre>
 
 * 💔 **ERROR** The check <FontBakeryCheck:com.google.fonts/check/old_ttfautohint> had an error: FailedConditionError: The condition <FontBakeryCondition:hinting_stats> had an error: OSError: Could not find the libc shared library
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Check copyright namerecords match license file.</summary>
-
-* [com.google.fonts/check/name/license](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license)
-<pre>--- Rationale ---
-
-A known licensing description must be provided in the NameID 14 (LICENSE
-DESCRIPTION) entries of the name table.
-
-The source of truth for this check (to determine which license is in use) is a
-file placed side-by-side to your font project including the licensing terms.
-
-Depending on the chosen license, one of the following string snippets is
-expected to be found on the NameID 13 (LICENSE DESCRIPTION) entries of the name
-table:
-- &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is available with a FAQ at: https://scripts.sil.org/OFL&quot;
-- &quot;Licensed under the Apache License, Version 2.0&quot;
-- &quot;Licensed under the Ubuntu Font Licence 1.0.&quot;
-
-
-Currently accepted licenses are Apache or Open Font License.
-For a small set of legacy families the Ubuntu Font License may be acceptable as
-well.
-
-When in doubt, please choose OFL for new font projects.
-
-
-</pre>
-
-* 🍞 **PASS** Licensing entry on name table is correctly set.
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
- [code: http]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> License URL matches License text on name table?</summary>
-
-* [com.google.fonts/check/name/license_url](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url)
-<pre>--- Rationale ---
-
-A known license URL must be provided in the NameID 14 (LICENSE INFO URL) entry
-of the name table.
-
-The source of truth for this check is the licensing text found on the NameID 13
-entry (LICENSE DESCRIPTION).
-
-The string snippets used for detecting licensing terms are:
-- &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is available with a FAQ at: https://scripts.sil.org/OFL&quot;
-- &quot;Licensed under the Apache License, Version 2.0&quot;
-- &quot;Licensed under the Ubuntu Font Licence 1.0.&quot;
-
-
-Currently accepted licenses are Apache or Open Font License.
-For a small set of legacy families the Ubuntu Font License may be acceptable as
-well.
-
-When in doubt, please choose OFL for new font projects.
-
-
-</pre>
-
-* 🍞 **PASS** Font has a valid license URL in NAME table.
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
-* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
- [code: http]
 
 </details>
 <details>
@@ -948,30 +875,6 @@ Glyph name: zdotaccent	Contours detected: 1	Expected: 2 [code: contour-count]
 
 </details>
 <details>
-<summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature?</summary>
-
-* [com.google.fonts/check/ligature_carets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets)
-<pre>--- Rationale ---
-
-All ligatures in a font must have corresponding caret (text cursor) positions
-defined in the GDEF table, otherwhise, users may experience issues with caret
-rendering.
-
-If using GlyphsApp, ligature carets can be set directly on canvas by accessing
-the `Glyph -&gt; Set Anchors` menu option or by pressing the `Cmd+U` keyboard
-shortcut.
-
-If designing with UFOs, (as of Oct 2020) ligature carets are not yet compiled
-by ufo2ft, and therefore will not build via FontMake. See
-googlefonts/ufo2ft/issues/329
-
-
-</pre>
-
-* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-
-</details>
-<details>
 <summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences?</summary>
 
 * [com.google.fonts/check/kerning_for_non_ligated_sequences](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences)
@@ -993,6 +896,21 @@ https://github.com/impallari/Raleway/issues/14).
 	- i + l
 
    [code: lacks-kern-info]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class</summary>
+
+* [com.google.fonts/check/gdef_mark_chars](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars)
+<pre>--- Rationale ---
+
+Mark characters should be in the GDEF mark glyph class.
+
+
+</pre>
+
+* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
+	 U+0BD7 [code: mark-chars]
 
 </details>
 <details>
@@ -1745,7 +1663,7 @@ that are multiples of 100 on the design space.
 * [com.google.fonts/check/repo/vf_has_static_fonts](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/repo/vf_has_static_fonts)
 <pre>--- Rationale ---
 
-Variable font family directories kept in the google/fonts git repo must include
+Variable font family directories kept in the google/fonts git repo may include
 a static/ subdir containing static fonts.
 These files are meant to be served for users that still lack support for
 variable fonts in their web browsers.
@@ -1848,13 +1766,12 @@ instances will have to be left to access through the `STAT` table.
 * [com.google.fonts/check/varfont/unsupported_axes](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont/unsupported_axes)
 <pre>--- Rationale ---
 
-The &#x27;ital&#x27; axis is not supported yet in Google Chrome. The &#x27;opsz&#x27; axis also has
-patchy support.
+The &#x27;ital&#x27; and &#x27;slnt&#x27; axes are not supported yet in Google Chrome.
 
 For the time being, we need to ensure that VFs do not contain either of these
 axes. Once browser support is better, we can deprecate this check.
 
-For more info regarding ital and opsz browser support, see:
+For more info regarding browser support, see:
 https://arrowtype.github.io/vf-slnt-test/
 
 
@@ -1876,7 +1793,7 @@ https://github.com/google/fonts/tree/master/axisregistry
 
 </pre>
 
-* 💤 **SKIP** Unfulfilled Conditions: is_variable_font
+* 💤 **SKIP** Unfulfilled Conditions: is_variable_font, family_metadata
 
 </details>
 <details>
@@ -1908,7 +1825,7 @@ for a future update to the OpenType specification&#x27;s axis registry.
 
 </pre>
 
-* 💤 **SKIP** Unfulfilled Conditions: is_variable_font
+* 💤 **SKIP** Unfulfilled Conditions: is_variable_font, family_metadata
 
 </details>
 <details>
@@ -1918,7 +1835,7 @@ for a future update to the OpenType specification&#x27;s axis registry.
 <pre>--- Rationale ---
 
 Check that particle names and values on STAT table match the fallback names in
-each axis registry at the Google Fonts Axis Registry, available at
+each axis entry at the Google Fonts Axis Registry, available at
 https://github.com/google/fonts/tree/master/axisregistry
 
 
@@ -1939,7 +1856,7 @@ METADATA.pb so that they can be served by the GFonts API.
 
 </pre>
 
-* 💤 **SKIP** Unfulfilled Conditions: is_variable_font
+* 💤 **SKIP** Unfulfilled Conditions: is_variable_font, family_metadata
 
 </details>
 <details>
@@ -1964,6 +1881,25 @@ Nowadays the strings can be full unicode strings and do not need escaping.
 * [com.google.fonts/check/metadata/designer_profiles](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/designer_profiles)
 
 * 💤 **SKIP** Unfulfilled Conditions: family_metadata
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> Ensure variable fonts include an avar table.</summary>
+
+* [com.google.fonts/check/mandatory_avar_table](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/mandatory_avar_table)
+<pre>--- Rationale ---
+
+All high quality variable fonts include an avar table to correctly define axes
+progression rates.
+
+For example, a weight axis from 0% to 100% doesn&#x27;t map directly to 100 to 1000,
+because a 10% progression from 0% may be too much to define the 200, while 90%
+may be too little to define the 900.
+
+
+</pre>
+
+* 💤 **SKIP** Unfulfilled Conditions: is_variable_font
 
 </details>
 <details>
@@ -2529,6 +2465,70 @@ An OFL.txt file&#x27;s first line should be the font copyright e.g:
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Check copyright namerecords match license file.</summary>
+
+* [com.google.fonts/check/name/license](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license)
+<pre>--- Rationale ---
+
+A known licensing description must be provided in the NameID 14 (LICENSE
+DESCRIPTION) entries of the name table.
+
+The source of truth for this check (to determine which license is in use) is a
+file placed side-by-side to your font project including the licensing terms.
+
+Depending on the chosen license, one of the following string snippets is
+expected to be found on the NameID 13 (LICENSE DESCRIPTION) entries of the name
+table:
+- &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at: https://scripts.sil.org/OFL&quot;
+- &quot;Licensed under the Apache License, Version 2.0&quot;
+- &quot;Licensed under the Ubuntu Font Licence 1.0.&quot;
+
+
+Currently accepted licenses are Apache or Open Font License.
+For a small set of legacy families the Ubuntu Font License may be acceptable as
+well.
+
+When in doubt, please choose OFL for new font projects.
+
+
+</pre>
+
+* 🍞 **PASS** Licensing entry on name table is correctly set.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> License URL matches License text on name table?</summary>
+
+* [com.google.fonts/check/name/license_url](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url)
+<pre>--- Rationale ---
+
+A known license URL must be provided in the NameID 14 (LICENSE INFO URL) entry
+of the name table.
+
+The source of truth for this check is the licensing text found on the NameID 13
+entry (LICENSE DESCRIPTION).
+
+The string snippets used for detecting licensing terms are:
+- &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at: https://scripts.sil.org/OFL&quot;
+- &quot;Licensed under the Apache License, Version 2.0&quot;
+- &quot;Licensed under the Ubuntu Font Licence 1.0.&quot;
+
+
+Currently accepted licenses are Apache or Open Font License.
+For a small set of legacy families the Ubuntu Font License may be acceptable as
+well.
+
+When in doubt, please choose OFL for new font projects.
+
+
+</pre>
+
+* 🍞 **PASS** Font has a valid license URL in NAME table.
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Description strings in the name table must not exceed 200 characters.</summary>
 
 * [com.google.fonts/check/name/description_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/description_max_length)
@@ -2599,7 +2599,7 @@ Arabic / etc.
 
 * [com.google.fonts/check/font_copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright)
 
-* 🍞 **PASS** Name Table entry: Copyright field 'Copyright 2019 The Oi! Project Authors (github.com/kosbarts/Oi)' matches canonical pattern.
+* 🍞 **PASS** Name Table entry: Copyright field 'Copyright 2019 The Oi Project Authors (github.com/kosbarts/Oi)' matches canonical pattern.
 * 🍞 **PASS** Name table copyright entries are good
 
 </details>
@@ -2868,6 +2868,30 @@ Bit 3 = Force ppem to integer values for all internal scaler math;
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Are there caret positions declared for every ligature?</summary>
+
+* [com.google.fonts/check/ligature_carets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets)
+<pre>--- Rationale ---
+
+All ligatures in a font must have corresponding caret (text cursor) positions
+defined in the GDEF table, otherwhise, users may experience issues with caret
+rendering.
+
+If using GlyphsApp, ligature carets can be set directly on canvas by accessing
+the `Glyph -&gt; Set Anchors` menu option or by pressing the `Cmd+U` keyboard
+shortcut.
+
+If designing with UFOs, (as of Oct 2020) ligature carets are not yet compiled
+by ufo2ft, and therefore will not build via FontMake. See
+googlefonts/ufo2ft/issues/329
+
+
+</pre>
+
+* 🍞 **PASS** Looks good!
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Combined length of family and style must not exceed 27 characters.</summary>
 
 * [com.google.fonts/check/name/family_and_style_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length)
@@ -3041,24 +3065,24 @@ take care of their own situation.
 
 </details>
 <details>
-<summary>🍞 <b>PASS:</b> Font contains .notdef as first glyph?</summary>
+<summary>🍞 <b>PASS:</b> Font contains '.notdef' as its first glyph?</summary>
 
 * [com.google.fonts/check/mandatory_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/mandatory_glyphs)
 <pre>--- Rationale ---
 
 The OpenType specification v1.8.2 recommends that the first glyph is the
-.notdef glyph without a codepoint assigned and with a drawing.
+&#x27;.notdef&#x27; glyph without a codepoint assigned and with a drawing.
 
 https://docs.microsoft.com/en-us/typography/opentype/spec
 /recom#glyph-0-the-notdef-glyph
 
-Pre-v1.8, it was recommended that a font should also contain a .null, CR and
-space glyph. This might have been relevant for applications on MacOS 9.
+Pre-v1.8, it was recommended that fonts should also contain &#x27;space&#x27;, &#x27;CR&#x27; and
+&#x27;.null&#x27; glyphs. This might have been relevant for MacOS 9 applications.
 
 
 </pre>
 
-* 🍞 **PASS** Font contains the .notdef glyph as the first glyph, it does not have a Unicode value assigned and contains a drawing.
+* 🍞 **PASS** OK
 
 </details>
 <details>
@@ -3451,20 +3475,6 @@ positioning that was only intended for building composite glyphs during design.
 
 </details>
 <details>
-<summary>🍞 <b>PASS:</b> Check mark characters are in GDEF mark glyph class</summary>
-
-* [com.google.fonts/check/gdef_mark_chars](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars)
-<pre>--- Rationale ---
-
-Mark characters should be in the GDEF mark glyph class.
-
-
-</pre>
-
-* 🍞 **PASS** Font does not have mark characters not in the GDEF mark glyph class.
-
-</details>
-<details>
 <summary>🍞 <b>PASS:</b> Check GDEF mark glyph class doesn't have characters that are not marks)</summary>
 
 * [com.google.fonts/check/gdef_non_mark_chars](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars)
@@ -3541,8 +3551,8 @@ good-to-have (but optional) feature.
 * [com.google.fonts/check/glyf_non_transformed_duplicate_components](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components)
 <pre>--- Rationale ---
 
-There has been cases in which fonts had faulty double quote marks, with each of
-them containing two single quote marks as components with the same x, y
+There have been cases in which fonts had faulty double quote marks, with each
+of them containing two single quote marks as components with the same x, y
 coordinates which makes them visually look like single quote marks.
 
 This check ensures that glyphs do not contain duplicate components which have
@@ -3559,10 +3569,15 @@ the same x,y coordinates.
 
 * [com.google.fonts/check/glyf_nested_components](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_nested_components)
 <pre>--- Rationale ---
-ve been bugs rendering variable fonts with nested components. Additionally,
-some static fonts with nested components have been reported to have rendering
-and printing issues. (See googlefonts/fontbakery#2961 and
-arrowtype/recursive#412.)
+
+There have been bugs rendering variable fonts with nested components.
+Additionally, some static fonts with nested components have been reported to
+have rendering and printing issues.
+
+For more info, see:
+* https://github.com/googlefonts/fontbakery/issues/2961
+* https://github.com/arrowtype/recursive/issues/412
+
 
 </pre>
 
@@ -3619,5 +3634,5 @@ segments.
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 2 | 0 | 9 | 90 | 6 | 87 | 0 |
-| 1% | 0% | 5% | 46% | 3% | 45% | 0% |
+| 2 | 0 | 7 | 91 | 6 | 89 | 0 |
+| 1% | 0% | 4% | 47% | 3% | 46% | 0% |
