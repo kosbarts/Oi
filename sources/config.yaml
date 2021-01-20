@@ -1,5 +1,5 @@
-sources:
-    - Oi.glyphs
+    sources:
+        - Oi.glyphs
     outputDir: "../fonts2"
     familyName: Oi
-buildVariable: false
+    buildVariable: false
