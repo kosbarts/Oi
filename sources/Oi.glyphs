@@ -359,7 +359,7 @@ value = 955;
 },
 {
 name = hheaDescender;
-value = -400;
+value = -410;
 },
 {
 name = hheaLineGap;
@@ -371,7 +371,7 @@ value = 955;
 },
 {
 name = typoDescender;
-value = -400;
+value = -410;
 },
 {
 name = typoLineGap;
@@ -383,7 +383,7 @@ value = 955;
 },
 {
 name = winDescent;
-value = 400;
+value = 410;
 }
 );
 descender = -175;
