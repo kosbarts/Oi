@@ -1,6 +1,6 @@
     sources:
         - Oi.glyphs
-    outputDir: "../fonts2"
+    outputDir: "../fonts"
     familyName: Oi
     buildVariable: false
     autohintTTF: false
