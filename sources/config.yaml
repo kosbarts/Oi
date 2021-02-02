@@ -3,3 +3,6 @@
     outputDir: "../fonts2"
     familyName: Oi
     buildVariable: false
+    autohintTTF: false
+
+

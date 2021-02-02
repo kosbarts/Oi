@@ -348,18 +348,18 @@ alignmentZones = (
 "{0, -35}",
 "{-138, -36}"
 );
-ascender = 1000;
+ascender = 825;
 capHeight = 760;
 custom = Front;
 customValue = 1;
 customParameters = (
 {
 name = hheaAscender;
-value = 1070;
+value = 877.22949;
 },
 {
 name = hheaDescender;
-value = -510;
+value = -175.76103;
 },
 {
 name = hheaLineGap;
@@ -367,11 +367,11 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 1070;
+value = 877.22949;
 },
 {
 name = typoDescender;
-value = -510;
+value = -175.76103;
 },
 {
 name = typoLineGap;
@@ -379,14 +379,14 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1070;
+value = 1066;
 },
 {
 name = winDescent;
-value = 510;
+value = 585;
 }
 );
-descender = -200;
+descender = -175;
 horizontalStems = (
 186,
 233,
