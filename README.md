@@ -33,7 +33,9 @@ Greek: Monotonic Modern Greek.
 
 ## Building the fonts
 
-### Step 1: Install Requirements
+### Automated build with gftools builder
+
+#### Step 1: Install Requirements
 
 Set up a virtual environment in the root directory:
 
@@ -53,7 +55,42 @@ Install requirements with:
 pip install -U -r requirements.txt
 ```
 
-### Step 2: Build the fonts
+#### Step 2: Gftools builder magic
+
+Once you make any change to the repo and push, the Build and Check action takes place. 
+
+Go to the Actions tab and click on the latest Workflow result. 
+
+Scroll down to see a package in the Artifacts section. 
+
+The package contains the otf, ttf, and webfont font files as well as a fontbakery report. 
+
+Download the zip to access the font files.
+
+
+### Alternative build method
+
+#### Step 1: Install Requirements
+
+Set up a virtual environment in the root directory:
+
+```
+virtualenv -p python3 venv
+```
+
+Activate the virtual environment with:
+
+```
+source venv/bin/activate
+```
+
+Install requirements with:
+
+```
+pip install -U -r requirements_old.txt
+```
+
+#### Step 2: Build the fonts
 
 **Building the fonts**
 
@@ -72,7 +109,7 @@ If you want to build otf's do so through Glyphs using the source Glyphs file.
 
 This is version 2.000. 
 
-Compared to the previous commercial version of the font (v.1.000) it introduces Vietnamese support and drops the shadowed style. The default Y is also swapped with the previous ss01 version.
+Compared to the previous commercial version of the font (v.1.000) it introduces Vietnamese support and drops the shadowed style. The default Y is also swapped with the previous ss01 version. The font is now named Oi (without the exclamation mark).
 
 ## License
 
