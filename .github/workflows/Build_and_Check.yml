@@ -45,9 +45,9 @@ jobs:
           version: "latest"
           subcmd: "check-googlefonts"
           args: "-C --succinct --loglevel WARN --ghmarkdown fonts/report.md"
-          path: "fonts2/ttf/*.ttf"
+          path: "fonts/ttf/*.ttf"
       - name: Upload Package
         uses: actions/upload-artifact@v2
         with:
           name: Oi_Fonts_and_Report
-          path: fonts2/
+          path: fonts/
