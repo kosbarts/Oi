@@ -96,14 +96,14 @@ pip install -U -r requirements_old.txt
 
 The script for building the fonts is in the `/sources/` folder.
 
-To build a static ttf run:
+To build ttf, otf, and woff2 run:
 
 ```
 cd sources
 sh build.sh
 ```
 
-If you want to build otf's do so through Glyphs using the source Glyphs file. 
+The files will appear in the corresponding folders in the ../font folder. 
 
 ## ChangeLog
 
