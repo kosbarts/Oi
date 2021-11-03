@@ -121,23 +121,24 @@ features = (
 {
 automatic = 1;
 code = "feature locl;
-feature locl;
+feature akhn;
+feature abvs;
+feature psts;
 feature sups;
 feature frac;
 feature ordn;
+feature lnum;
 feature zero;
 feature case;
+feature salt;
 feature ss01;
 feature ss02;
+feature ss05;
 feature calt;
-feature akhn;
-feature cjct;
-feature salt;
 ";
 name = aalt;
 },
 {
-automatic = 1;
 code = "lookup locl_latn_0 {
 	script latn;
 	language AZE;
@@ -169,7 +170,7 @@ lookup locl_latn_1 {
 lookup locl_latn_2 {
 	script latn;
 	language CAT;
-	sub  l' periodcentered' l by ldot;
+	sub  l' periodcentered' l' by ldot_l;
 	sub  L' periodcentered' L by Ldot;
 } locl_latn_2;
 
@@ -231,11 +232,7 @@ lookup locl_cyrl_3 {
 	language SRB;
 	sub be-cy by be-cy.loclSRB;
 } locl_cyrl_3;
-";
-name = locl;
-},
-{
-code = "# Automatic Code End
+
 lookup grek_anoteleia {
 	script grek;
 	ignore sub @grekAll periodcentered' @grekAll;
@@ -614,8 +611,11 @@ sub Ytilde by Ytilde.ss01;
 name = salt;
 },
 {
-automatic = 1;
-code = "sub Y by Y.ss01;
+code = "featureNames {
+name \"Alternate Y\";
+};
+lookup ltn01 {
+sub Y by Y.ss01;
 sub Yacute by Yacute.ss01;
 sub Ycircumflex by Ycircumflex.ss01;
 sub Ydieresis by Ydieresis.ss01;
@@ -624,32 +624,41 @@ sub Ygrave by Ygrave.ss01;
 sub Yhookabove by Yhookabove.ss01;
 sub Ymacron by Ymacron.ss01;
 sub Ytilde by Ytilde.ss01;
-";
+} ltn01;";
 name = ss01;
-notes = "Name: Alternate Y";
 },
 {
-automatic = 1;
-code = "sub beta by beta.ss02;
+code = "featureNames {
+name \"Greek alternates\";
+};
+lookup grk02 {
+sub beta by beta.ss02;
 sub delta by delta.ss02;
 sub theta by theta.ss02;
 sub sigma by sigma.ss02;
-";
+} grk02;";
 name = ss02;
-notes = "Name: Greek alternates";
 },
 {
-code = "lookup locl_cyrl_0;";
+code = "featureNames {
+name \"Bulgarian alternates\";
+};
+lookup locl_cyrl_0;";
 name = ss03;
-notes = "Name: Bulgarian alternates";
 },
 {
-code = "lookup locl_cyrl_3;";
+code = "featureNames {
+name \"Serbian alternates\";
+};
+lookup locl_cyrl_3;";
 name = ss04;
-notes = "Name: Serbian alternates";
 },
 {
-code = "sub pulli-tamil by pulli-anusvara.ss05;
+code = "featureNames {
+name \"Tamil Anusvara\";
+};
+lookup tml05 {
+sub pulli-tamil by pulli-anusvara.ss05;
 sub k_ssa_pulli-tamil by k_ssa_anusvara-tamil;
 sub ka_pulli-tamil by ka_anusvara-tamil;
 sub nga_anusvara-tamil by nga_anusvara-tamil;
@@ -673,9 +682,9 @@ sub va_pulli-tamil by va_anusvara-tamil;
 sub sha_pulli-tamil by sha_anusvara-tamil;
 sub ssa_pulli-tamil by ssa_anusvara-tamil;
 sub sa_pulli-tamil by sa_anusvara-tamil;
-sub ha_pulli-tamil by ha_anusvara-tamil;";
+sub ha_pulli-tamil by ha_anusvara-tamil;
+} tml05;";
 name = ss05;
-notes = "Name: Tamil Anusvara";
 },
 {
 code = "lookup Clashes {
