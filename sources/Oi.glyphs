@@ -257,6 +257,15 @@ lookup Akhn_tamil;
 name = akhn;
 },
 {
+code = "lookupflag 0;
+script taml;
+lookup Akhn_tamil;
+script tml2;
+lookup Akhn_tamil;
+";
+name = cjct;
+},
+{
 code = "script tml2;
 lookup abvs_1 {
 	sub k_ssa-tamil pulli-tamil by k_ssa_pulli-tamil;
