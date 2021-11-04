@@ -81,6 +81,10 @@ value = 1;
 {
 name = note;
 value = "Highest:\012/nnna_uuMatra-tamil\012Lowest:\012/nnna_uuMatra-tamil";
+},
+{
+name = "Use Extension Kerning";
+value = 1;
 }
 );
 date = "2020-12-10 14:18:21 +0000";
