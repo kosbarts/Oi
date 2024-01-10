@@ -79,7 +79,7 @@ value = 1;
 },
 {
 name = note;
-value = "Highest:\012/nnna_uuMatra-tamil\012Lowest:\012/nnna_uuMatra-tamil\012\012\012\012Change intergal to esh perhaps??\012\012heng must follow eng kerning\012same with Heng\012check p exceptions\012check if lf should kern against lowercase\012check for exceptions after backslash and slash to see if new letters need update (i.e. \\p needs all other ps)\012";
+value = "Highest:\012/nnna_uuMatra-tamil\012Lowest:\012/nnna_uuMatra-tamil\012\012\012\012\012heng must follow eng kerning\012same with Heng\012check p exceptions\012check if lf should kern against lowercase\012check for exceptions after backslash and slash to see if new letters need update (i.e. \\p needs all other ps)\012";
 },
 {
 name = "Use Extension Kerning";
