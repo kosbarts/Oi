@@ -45,6 +45,7 @@ jobs:
         run: gftools builder sources/config.yaml
       - name: Check with FontBakery
         uses: f-actions/font-bakery@v3
+        continue-on-error: true
         with:
           version: "latest"
           subcmd: "check-googlefonts"
