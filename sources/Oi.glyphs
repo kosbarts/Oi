@@ -4,13 +4,12 @@ DisplayStrings = (
 "/space A/space Á/space/Abreve/space/Abreveacute/space/Abrevedotbelow/space/Abrevegrave/space/Abrevehookabove/space/Abrevetilde/space Â/space/Acircumflexacute/space/Acircumflexdotbelow/space/Acircumflexgrave/space/Acircumflexhookabove/space/Acircumflextilde/space/Adblgrave/space Ä/space/Adotbelow/space À/space/Ahookabove/space/Ainvertedbreve/space/Amacron/space/Aogonek/space Å/space/Aringacute/space Ã/space Æ/space/AEacute/space B/space C/space/Cacute/space/Ccaron/space Ç/space/Ccircumflex/space/Cdotaccent/space D/space/DZcaron/space Ð/space/Dcaron/space/Dcroat/space/Dzcaron/space E/space É/space/Ebreve/space/Ecaron/space Ê/space/Ecircumflexacute/space/Ecircumflexdotbelow/space/Ecircumflexgrave/space/Ecircumflexhookabove/space/Ecircumflextilde/space/Edblgrave/space Ë/space/Edotaccent/space/Edotbelow/space È/space/Ehookabove/space/Einvertedbreve/space/Emacron/space/Eogonek/space/Etilde/space F/space G/space/Gbreve/space/Gcaron/space/Gcircumflex/space/Gcommaaccent/space/Gdotaccent/space H/space/Hbar/space/Hcircumflex/space I/space/IJ/space Í/space/Ibreve/space Î/space/Idblgrave/space Ï/space/Idotaccent/space/Idotbelow/space Ì/space/Ihookabove/space/Iinvertedbreve/space/Imacron/space/Iogonek/space/Itilde/space J/space/Jacute/space/Jcircumflex/space K/space/Kcommaaccent/space L/space/LJ/space/Lacute/space/Lcaron/space/Lcommaaccent/space/Ldot/space/Lj/space/Lslash/space M/space N/space/NJ/space/Nacute/space/Ncaron/space/Ncommaaccent/space/Eng/space/Nhookleft/space/Nj/space Ñ/space O/space Ó/space/Obreve/space Ô/space/Ocircumflexacute/space/Ocircumflexdotbelow/space/Ocircumflexgrave/space/Ocircumflexhookabove/space/Ocircumflextilde/space/Odblgrave/space Ö/space/Odieresismacron/space/Odotaccentmacron/space/Odotbelow/space Ò/space/Ohookabove/space/Ohorn/space/Ohornacute/space/Ohorndotbelow/space/Ohorngrave/space/Ohornhookabove/space/Ohorntilde/space/Ohungarumlaut/space/Oinvertedbreve/space/Omacron/space/Oogonek/space Ø/space/Oslashacute/space Õ/space/Otildemacron/space/OE/space P/space Þ/space Q/space R/space/Racute/space/Rcaron/space/Rcommaaccent/space/Rdblgrave/space/Rinvertedbreve/space S/space/Sacute/space/Scaron/space/Scedilla/space/Scircumflex/space/Scommaaccent/space/Germandbls/space/Schwa/space T/space/Tbar/space/Tcaron/space/Tcedilla/space/Tcommaaccent/space U/space Ú/space/Ubreve/space Û/space/Udblgrave/space Ü/space/Udotbelow/space Ù/space/Uhookabove/space/Uhorn/space/Uhornacute/space/Uhorndotbelow/space/Uhorngrave/space/Uhornhookabove/space/Uhorntilde/space/Uhungarumlaut/space/Uinvertedbreve/space/Umacron/space/Uogonek/space/Uring/space/Utilde/space V/space W/space/Wacute/space/Wcircumflex/space/Wdieresis/space/Wgrave/space X/space Y/space Ý/space/Ycircumflex/space/Ydieresis/space/Ydotbelow/space/Ygrave/space/Yhookabove/space/Ymacron/space/Ytilde/space Z/space/Zacute/space/Zcaron/space/Zdotaccent/space a/space á/space/abreve/space/abreveacute/space/abrevedotbelow/space/abrevegrave/space/abrevehookabove/space/abrevetilde/space â/space/acircumflexacute/space/acircumflexdotbelow/space/acircumflexgrave/space/acircumflexhookabove/space/acircumflextilde/space/adblgrave/space ä/space/adotbelow/space à/space/ahookabove/space/ainvertedbreve/space/amacron/space/aogonek/space å/space/aringacute/space ã/space æ/space/aeacute/space b/space c/space/cacute/space/ccaron/space ç/space/ccircumflex/space/cdotaccent/space d/space ð/space/dcaron/space/dcroat/space/dzcaron/space e/space é/space/ebreve/space/ecaron/space ê/space/ecircumflexacute/space/ecircumflexdotbelow/space/ecircumflexgrave/space/ecircumflexhookabove/space/ecircumflextilde/space/edblgrave/space ë/space/edotaccent/space/edotbelow/space è/space/ehookabove/space/einvertedbreve/space/emacron/space/eogonek/space/etilde/space/schwa/space f/space g/space/gbreve/space/gcaron/space/gcircumflex/space/gcommaaccent/space/gdotaccent/space h/space/hbar/space/hcircumflex/space i/space/idotless/space í/space/ibreve/space î/space/idblgrave/space ï/space/idotaccent/space/idotbelow/space ì/space/ihookabove/space/iinvertedbreve/space/ij/space/imacron/space/iogonek/space/itilde/space j/space/jdotless/space/jacute/space/jcircumflex/space k/space/kcommaaccent/space/kgreenlandic/space l/space/lacute/space/lcaron/space/lcommaaccent/space/ldot/space/lj/space/lslash/space m/space n/space/nacute/space/napostrophe/space/ncaron/space/ncommaaccent/space/eng/space/nhookleft/space/nj/space ñ/space o/space ó/space/obreve/space ô/space/ocircumflexacute/space/ocircumflexdotbelow/space/ocircumflexgrave/space/ocircumflexhookabove/space/ocircumflextilde/space/odblgrave/space ö/space/odieresismacron/space/odotaccentmacron/space/odotbelow/space ò/space/ohookabove/space/ohorn/space/ohornacute/space/ohorndotbelow/space/ohorngrave/space/ohornhookabove/space/ohorntilde/space/ohungarumlaut/space/oinvertedbreve/space/omacron/space/oogonek/space ø/space/oslashacute/space õ/space/otildemacron/space/oe/space p/space þ/space q/space r/space/racute/space/rcaron/space/rcommaaccent/space/rdblgrave/space/rinvertedbreve/space s/space/sacute/space/scaron/space/scedilla/space/scircumflex/space/scommaaccent/space ß/space t/space/tbar/space/tcaron/space/tcedilla/space/tcommaaccent/space u/space ú/space/ubreve/space û/space/udblgrave/space ü/space/udotbelow/space ù/space/uhookabove/space/uhorn/space/uhornacute/space/uhorndotbelow/space/uhorngrave/space/uhornhookabove/space/uhorntilde/space/uhungarumlaut/space/uinvertedbreve/space/umacron/space/uogonek/space/uring/space/utilde/space v/space w/space/wacute/space/wcircumflex/space/wdieresis/space/wgrave/space x/space y/space ý/space/ycircumflex/space/ydieresis/space/ydotbelow/space/ygrave/space/yhookabove/space/ymacron/space/ytilde/space z/space/zacute/space/zcaron/space/zdotaccent/space ª/space º/space/Alpha/space/Beta/space/Gamma/space/Delta/space/Epsilon/space/Zeta/space/Eta/space/Theta/space/Iota/space/Kappa/space/Lambda/space/Mu/space/Nu/space/Xi/space/Omicron/space/Pi/space/Rho/space/Sigma/space/Tau/space/Upsilon/space/Phi/space/Chi/space/Psi/space/Omega/space/Alphatonos/space/Epsilontonos/space/Etatonos/space/Iotatonos/space/Omicrontonos/space/Upsilontonos/space/Omegatonos/space/Iotadieresis/space/Upsilondieresis/space/KaiSymbol/space/alpha/space/beta/space/gamma/space/delta/space/epsilon/space/zeta/space/eta/space/theta/space/iota/space/kappa/space/lambda/space/mu/space/nu/space/xi/space/omicron/space/pi/space/rho/space/sigmafinal/space/sigma/space/tau/space/upsilon/space/phi/space/chi/space/psi/space/omega/space/iotatonos/space/iotadieresis/space/iotadieresistonos/space/upsilontonos/space/upsilondieresis/space/upsilondieresistonos/space/omicrontonos/space/omegatonos/space/alphatonos/space/epsilontonos/space/etatonos/space/kaiSymbol/space 0/space 1/space 2/space 3/space 4/space 5/space 6/space 7/space 8/space 9/space/zero.zero/space/zero.lf/space/one.lf/space/two.lf/space/three.lf/space/four.lf/space/five.lf/space/six.lf/space/seven.lf/space/eight.lf/space/nine.lf/space/zero.lf.zero/space ¹/space ²/space ³/space/foursuperior/space/fraction/space ½/space ¼/space ¾/space ./space ,/space :/space ;/space/ellipsis/space !/space ¡/space ?/space ¿/space ·/space/bullet/space */space #/space/space/questiondown.calt/space/exclam.case/space/exclamdown.case/space/question.case/space/questiondown.case/space (/space )/space {/space }/space [/space ]/space -/space ­/space/endash/space/emdash/space _/space/quotesinglbase/space/quotedblbase/space/quotedblleft/space/quotedblright/space/quoteleft/space/quoteright/space «/space »/space/guilsinglleft/space/guilsinglright/space \"/space '/space/quotedblleft.case/space/quotedblright.case/space/quoteleft.case/space/quoteright.case/space/quotedbl.case/space/quotesingle.case/space/anoteleia/space/questiongreek/space/cedi/space ¢/space/colonsign/space ¤/space $/space/euro/space/florin/space/guarani/space/liraTurkish/space/manat/space/mill/space/naira/space/peso/space/rupee/space/rupeeIndian/space £/space/bitcoin/space ¥/space/bulletoperator/space/divisionslash/space +/space/minus/space ×/space ÷/space =/space/notequal/space >/space </space/greaterequal/space/lessequal/space ±/space/approxequal/space ~/space ¬/space ^/space/infinity/space/integral/space/Ohm/space/increment/space/product/space/summation/space/radical/space/partialdiff/space µ/space %/space/perthousand/space/upArrow/space/northEastArrow/space/rightArrow/space/southEastArrow/space/downArrow/space/southWestArrow/space/leftArrow/space/northWestArrow/space/leftRightArrow/space/upDownArrow/space/lozenge/space/leftWhiteIndex/space/upWhiteIndex/space/rightWhiteIndex/space/downWhiteIndex/space @/space &/space ¶/space §/space ©/space ®/space/trademark/space °/space |/space ¦/space/dagger/space/daggerdbl/space/numero/space/numeral-greek/space/lowernumeral-greek/space",
 "/la-tamil/la_iMatra-tamil/la_iiMatra-tamil/la_uMatra-tamil/la_uuMatra-tamil/ma_pulli-tamil/la_pulli-tamil/la_anusvara-tamil \012aá/abreve/ca_uuMatra-tamil/ai-tamil/e-tamil \012/pa-tamil/pa-tamil/Placeholder/pa-tamil/Placeholder/pa-tamil/Placeholder/e-tamil/Placeholder/e-tamil/e-tamil",
 "\012/en-cy/ii-cy.loclBGR/i-cy/de-cy.loclBGR/en-cy.loclBGR \012/en-cy/en-cy/en-cy/Placeholder/en-cy/Placeholder/o-cy/Placeholder/o-cy/o-cy/o-cy \012/Ka-cy/El-cy/U-cy/U_acutecomb-cy/Ushort-cy/Umacron-cy/Udieresis-cy/Uhungarumlaut-cy/Yeru-cy/Yeru_acutecomb-cy/Yerudieresis-cy \012/En-cy/En-cy/En-cy/Placeholder/En-cy/Placeholder/O-cy/Placeholder/O-cy/O-cy/O-cy \012/de-cy.loclBGR o/space ahead/space and/space bein/de-cy.loclBGR",
-"Oi/space Tamil/space is/space coming\012\012\012\012\012\012/oo-tamil/ya-tamil/pulli-tamil/space/ta-tamil/ma-tamil/iMatra-tamil/llla-tamil/pulli-tamil/space/va-tamil/ra-tamil/uMatra-tamil/ka-tamil/iMatra-tamil/rra-tamil/ta-tamil/uMatra-tamil/space \012/oo-tamil/ya-tamil/pulli-tamil/space/ta-tamil/ma-tamil/iMatra-tamil/llla-tamil/pulli-tamil/space/va-tamil/ra-tamil/uMatra-tamil/ka-tamil/iMatra-tamil/rra-tamil/ta-tamil/uMatra-tamil/space \012",
-"/g.ss06 ª/g.ss06 º/g.ss06 0/g.ss06 1/g.ss06 2/g.ss06 3/g.ss06 4/g.ss06 5/g.ss06 6/g.ss06 7/g.ss06 8/g.ss06 9/g.ss06/zero.zero/g.ss06/zero.lf/g.ss06/one.lf/g.ss06/two.lf/g.ss06/three.lf/g.ss06/four.lf/g.ss06/five.lf/g.ss06/six.lf/g.ss06/seven.lf/g.ss06/eight.lf/g.ss06/nine.lf/g.ss06/zero.lf.zero/g.ss06 ¹/g.ss06 ²/g.ss06 ³/g.ss06/foursuperior/g.ss06 ./g.ss06 ,/g.ss06 :/g.ss06 ;/g.ss06/ellipsis/g.ss06 !/g.ss06 ¡/g.ss06 ?/g.ss06 ¿/g.ss06 ·/g.ss06/bullet/g.ss06 */g.ss06 #/g.ss06/g.ss06/questiondown.calt/g.ss06/exclam.case/g.ss06/exclamdown.case/g.ss06/question.case/g.ss06/questiondown.case/g.ss06 (/g.ss06 )/g.ss06 {/g.ss06 }/g.ss06 [/g.ss06 ]/g.ss06 -/g.ss06/quotesinglbase/g.ss06/quotedblbase/g.ss06/quotedblleft/g.ss06/quotedblright/g.ss06/quoteleft/g.ss06/quoteright/g.ss06 «/g.ss06 »/g.ss06/guilsinglleft/g.ss06/guilsinglright/g.ss06 \"/g.ss06 '/g.ss06/quotedblleft.case/g.ss06/quotedblright.case/g.ss06/quoteleft.case/quoteright/g.ss06/quoteright g/quoteright.case g/quoteright.case/g.ss06/quotedbl.case/g.ss06/quotesingle.case/g.ss06/anoteleia/g.ss06/questiongreek/g.ss06/bulletoperator/g.ss06/divisionslash/g.ss06 +/g.ss06/minus/g.ss06 ×/g.ss06 ÷/g.ss06 =/g.ss06/notequal/g.ss06 >/g.ss06 </g.ss06/greaterequal/g.ss06/lessequal/g.ss06 ±/g.ss06/approxequal/g.ss06 ~/g.ss06 ¬/g.ss06 ^/g.ss06/infinity/g.ss06/integral/g.ss06 %/g.ss06/perthousand/g.ss06/upArrow/g.ss06/northEastArrow/g.ss06/rightArrow/g.ss06/southEastArrow/g.ss06/downArrow/g.ss06/southWestArrow/g.ss06/leftArrow/g.ss06/northWestArrow/g.ss06/leftRightArrow/g.ss06/upDownArrow/g.ss06/leftWhiteIndex/g.ss06/rightWhiteIndex/g.ss06 @/g.ss06 &/g.ss06 ¶/g.ss06 §/g.ss06 ©/g.ss06 ®/g.ss06/trademark/g.ss06 °/g.ss06 |/g.ss06 ¦/g.ss06/dagger/g.ss06/daggerdbl/g.ss06/colonmod/g.ss06/doubleapostrophemod/g.ss06/minusmod/g.ss06/shortequalmod/g.ss06///g.ss06/backslash/g.ss06"
+"Oi/space Tamil/space is/space coming\012\012\012\012\012\012/oo-tamil/ya-tamil/pulli-tamil/space/ta-tamil/ma-tamil/iMatra-tamil/llla-tamil/pulli-tamil/space/va-tamil/ra-tamil/uMatra-tamil/ka-tamil/iMatra-tamil/rra-tamil/ta-tamil/uMatra-tamil/space \012/oo-tamil/ya-tamil/pulli-tamil/space/ta-tamil/ma-tamil/iMatra-tamil/llla-tamil/pulli-tamil/space/va-tamil/ra-tamil/uMatra-tamil/ka-tamil/iMatra-tamil/rra-tamil/ta-tamil/uMatra-tamil/space \012"
 );
 classes = (
 {
 automatic = 1;
-code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adblgrave Adieresis Adotbelow Agrave Ahookabove Ainvertedbreve Amacron Aogonek Aring Aringacute Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D DZcaron Eth Dcaron Dcroat Dzcaron E Eacute Ebreve Ecaron Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edieresis Edotaccent Edotbelow Egrave Ehookabove Einvertedbreve Emacron Eogonek Etilde F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent H Hbar Hcircumflex I IJ Iacute Ibreve Icircumflex Idblgrave Idieresis Idotaccent Idotbelow Igrave Ihookabove Iinvertedbreve Imacron Iogonek Itilde J Jacute Jcircumflex K Kcommaaccent L LJ Lacute Lcaron Lcommaaccent Ldot Lj Lslash M N NJ Nacute Ncaron Ncommaaccent Eng Nhookleft Nj Ntilde O Oacute Obreve Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odblgrave Odieresis Odieresismacron Odotaccentmacron Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Oinvertedbreve Omacron Oogonek Oslash Oslashacute Otilde Otildemacron OE P Thorn Q R Racute Rcaron Rcommaaccent Rdblgrave Rinvertedbreve S Sacute Scaron Scedilla Scircumflex Scommaaccent Germandbls Schwa T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ubreve Ucircumflex Udblgrave Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Uinvertedbreve Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotbelow Ygrave Yhookabove Ymacron Ytilde Z Zacute Zcaron Zdotaccent Y.calt Yacute.calt Ycircumflex.calt Ydieresis.calt Ydotbelow.calt Ygrave.calt Yhookabove.calt Ymacron.calt Ytilde.calt Y.ss01 Yacute.ss01 Ycircumflex.ss01 Ydieresis.ss01 Ydotbelow.ss01 Ygrave.ss01 Yhookabove.ss01 Ymacron.ss01 Ytilde.ss01 A-cy A_acutecomb-cy Be-cy Ve-cy Ge-cy Gje-cy Gheupturn-cy De-cy Ie-cy Ie_acutecomb-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Ii_acutecomb-cy Iishort-cy Iigrave-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy O_acutecomb-cy Pe-cy Er-cy Es-cy Te-cy U-cy U_acutecomb-cy Ushort-cy Ef-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Hardsign-cy Yeru-cy Yeru_acutecomb-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy Ereversed_acutecomb-cy I-cy Yi-cy Je-cy Tshe-cy Iu-cy Iu_acutecomb-cy Ia-cy Ia_acutecomb-cy Dje-cy Yat-cy Yusbig-cy Fita-cy Izhitsa-cy Ghestroke-cy Ghemiddlehook-cy Zhedescender-cy Zedescender-cy Kadescender-cy Kaverticalstroke-cy Kabashkir-cy Endescender-cy Enghe-cy Pedescender-cy Esdescender-cy Ustrait-cy Ustraitstroke-cy Chedescender-cy Cheverticalstroke-cy Shha-cy Palochka-cy Zhebreve-cy Chekhakassian-cy Abreve-cy Adieresis-cy Aie-cy Iebreve-cy Schwa-cy Zhedieresis-cy Zedieresis-cy Imacron-cy Idieresis-cy Odieresis-cy Obarred-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy Chedieresis-cy Gedescender-cy Yerudieresis-cy Qa-cy We-cy De-cy.loclBGR El-cy.loclBGR Ef-cy.loclBGR Ghestroke-cy.loclBSH Zedescender-cy.loclBSH Esdescender-cy.loclBSH Esdescender-cy.loclCHU Alpha Beta Gamma Delta Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos Iotadieresis Upsilondieresis KaiSymbol";
+code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adblgrave Adieresis Adieresismacron Adotaccent Adotbelow Adotmacron Agrave Ahookabove Ainvertedbreve Alpha-latin Amacron Aogonek Aring Aringacute Aringbelow Astroke Atilde AE AEacute AEmacron B Bdotaccent Bdotbelow Beta-latin Bhook Bmacronbelow Bstroke C Cacute Ccaron Ccedilla Ccedillaacute Ccircumflex Cdotaccent Chi-latin Chook Cstroke D DZcaron Eth Dcaron Dcedilla Dcircumflexbelow Dcroat Ddotaccent Ddotbelow Dhook Dmacronbelow Dtail Dzcaron E Eacute Ebreve Ecaron Ecedilla Ecedillabreve Ecircumflex Ecircumflexacute Ecircumflexbelow Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edieresis Edotaccent Edotbelow Egrave Ehookabove Einvertedbreve Emacron Emacronacute Emacrongrave Eogonek Eopen Ereversed Esh Estroke Etilde Etildebelow Ezh Ezhcaron Ezhreversed F Fdotaccent Fhook G Gacute Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Ghook Glottalstop Gmacron Gstroke H Hbar Hbrevebelow Hcaron Hcedilla Hcircumflex Hdieresis Hdotaccent Hdotbelow Heng Hhook Hturned I IJ Iacute Ibreve Icaron Icircumflex Idblgrave Idieresis Idieresisacute Idotaccent Idotbelow Igrave Ihookabove Iinvertedbreve Imacron Iogonek Iota-latin Istroke Itilde Itildebelow J Jacute Jcircumflex Jcrossedtail Jstroke K Kacute Kcaron Kcommaaccent Kdotbelow Khook Kmacronbelow Kstroke L LJ Lacute Lbar Lbelt Lcaron Lcircumflexbelow Lcommaaccent Ldot Ldotbelow Ldotbelowmacron Ldoublebar Lj Lmacronbelow Lmiddletilde Lslash M Macute Mdotaccent Mdotbelow Mturned N NJ Nacute Ncaron Ncircumflexbelow Ncommaaccent Ndotaccent Ndotbelow Ngrave Eng Nhookleft Nj Nlongrightleg Nmacronbelow Ntilde O OU Oacute Obreve Ocaron Ocenteredtilde Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odblgrave Odieresis Odieresismacron Odotaccent Odotaccentmacron Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Oinvertedbreve Omacron Omacronacute Omacrongrave Omega-latin Oogonek Oogonekmacron Oopen Oslash Oslashacute Otilde Otildeacute Otildedieresis Otildemacron OE P Pacute Pdotaccent Phook Thorn Pstroke Q Qhooktail R Racute Rcaron Rcommaaccent Rdblgrave Rdotaccent Rdotbelow Rdotbelowmacron Rinvertedbreve Rmacronbelow Rstroke Rtail S Sacute Sacutedotaccent Saltillo Scaron Scarondotaccent Scedilla Scircumflex Scommaaccent Sdotaccent Sdotbelow Sdotbelowdotaccent Germandbls Sobliquestroke Schwa T Tbar Tcaron Tcedilla Tcircumflexbelow Tcommaaccent Tdiagonalstroke Tdotaccent Tdotbelow Thook Tmacronbelow Tretroflexhook U Uacute Ubar Ubreve Ucaron Ucircumflex Ucircumflexbelow Udblgrave Udieresis Udieresisacute Udieresisbelow Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Uinvertedbreve Umacron Umacrondieresis Uogonek Upsilon-latin Uring Utilde Utildeacute Utildebelow V Gamma-latin Vdotbelow Vhook Vtilde Vturned W Wacute Wcircumflex Wdieresis Wdotaccent Wdotbelow Wgrave Whook X Xdieresis Xdotaccent Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhook Yhookabove Ymacron Ystroke Ytilde Z Zacute Zcaron Zcircumflex Zdotaccent Zdotbelow Zmacronbelow Zstroke Y.calt Yacute.calt Ycircumflex.calt Ydieresis.calt Ydotaccent.calt Ydotbelow.calt Ygrave.calt Yhook.calt Yhookabove.calt Ymacron.calt Ystroke.calt Ytilde.calt Lcommaaccent.loclMAH Ncommaaccent.loclMAH Eng.loclNSM Y.ss01 Yacute.ss01 Ycircumflex.ss01 Ydieresis.ss01 Ydotaccent.ss01 Ydotbelow.ss01 Ygrave.ss01 Yhook.ss01 Yhookabove.ss01 Ymacron.ss01 Ystroke.ss01 Ytilde.ss01 A-cy A_acutecomb-cy Be-cy Ve-cy Ge-cy Gje-cy Gheupturn-cy De-cy Ie-cy Ie_acutecomb-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Ii_acutecomb-cy Iishort-cy Iigrave-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy O_acutecomb-cy Pe-cy Er-cy Es-cy Te-cy U-cy U_acutecomb-cy Ushort-cy Ef-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Hardsign-cy Yeru-cy Yeru_acutecomb-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy Ereversed_acutecomb-cy I-cy Yi-cy Je-cy Tshe-cy Iu-cy Iu_acutecomb-cy Ia-cy Ia_acutecomb-cy Dje-cy Yat-cy Yusbig-cy Fita-cy Izhitsa-cy Ghestroke-cy Ghemiddlehook-cy Zhedescender-cy Zedescender-cy Kadescender-cy Kaverticalstroke-cy Kabashkir-cy Endescender-cy Enghe-cy Pedescender-cy Esdescender-cy Ustrait-cy Ustraitstroke-cy Chedescender-cy Cheverticalstroke-cy Shha-cy Palochka-cy Zhebreve-cy Chekhakassian-cy Abreve-cy Adieresis-cy Aie-cy Iebreve-cy Schwa-cy Zhedieresis-cy Zedieresis-cy Imacron-cy Idieresis-cy Odieresis-cy Obarred-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy Chedieresis-cy Gedescender-cy Yerudieresis-cy Qa-cy We-cy De-cy.loclBGR El-cy.loclBGR Ef-cy.loclBGR Ghestroke-cy.loclBSH Zedescender-cy.loclBSH Esdescender-cy.loclBSH Esdescender-cy.loclCHU Alpha Beta Gamma Delta Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos Iotadieresis Upsilondieresis KaiSymbol Alphatonos.calt Epsilontonos.calt Etatonos.calt Iotatonos.calt Omicrontonos.calt Upsilontonos.calt Omegatonos.calt Iotadieresis.calt Upsilondieresis.calt";
 name = Uppercase;
 },
 {
@@ -79,7 +78,7 @@ value = 1;
 },
 {
 name = note;
-value = "Highest:\012/nnna_uuMatra-tamil\012Lowest:\012/nnna_uuMatra-tamil\012\012Not nice\012\012\012heng must follow eng kerning\012same with Heng\012check p exceptions\012check if lf should kern against lowercase\012check for exceptions after backslash and slash to see if new letters need update (i.e. \\p needs all other ps)\012";
+value = "Highest:\012/nnna_uuMatra-tamil\012Lowest:\012/nnna_uuMatra-tamil\012\012";
 },
 {
 name = "Use Extension Kerning";
@@ -137,6 +136,8 @@ feature salt;
 feature ss01;
 feature ss02;
 feature ss05;
+feature ss06;
+feature ss07;
 feature calt;
 ";
 name = aalt;
@@ -132431,7 +132432,7 @@ pacute = -10;
 paragraph = -12;
 parenright = -41;
 pdotaccent = -10;
-phook = -20;
+phook = -10;
 question = -26;
 question.case = -25;
 registered = -17;
@@ -136412,9 +136413,11 @@ registered = -49;
 saltillo = -73;
 trademark = -57;
 underscore = -10;
+"@MMK_R_h" = 0;
 };
 "@MMK_L_nlegrightlong" = {
 "@MMK_R_Bhook" = -51;
+"@MMK_R_Eopen" = -42;
 "@MMK_R_Ezh" = -49;
 "@MMK_R_Ezhreversed" = -44;
 "@MMK_R_Hturned" = -59;
@@ -136426,6 +136429,7 @@ underscore = -10;
 "@MMK_R_O" = -50;
 "@MMK_R_OU" = -39;
 "@MMK_R_Rtail" = -37;
+"@MMK_R_Schwa" = -41;
 "@MMK_R_T" = -56;
 "@MMK_R_U" = -55;
 "@MMK_R_Ubar" = -45;
@@ -136436,24 +136440,56 @@ underscore = -10;
 "@MMK_R_Yss" = -68;
 "@MMK_R_a" = -20;
 "@MMK_R_ezh" = -24;
+"@MMK_R_guilsinglleft" = -55;
+"@MMK_R_hyphen" = -49;
 "@MMK_R_j.calt" = -38;
+"@MMK_R_leftArrow" = -47;
 "@MMK_R_nhookleft" = 10;
 "@MMK_R_o" = -60;
+"@MMK_R_periodcentered" = -61;
+"@MMK_R_quoteleft" = -63;
+"@MMK_R_quoteright" = -66;
+"@MMK_R_quotesingle" = -52;
 "@MMK_R_t" = -44;
 "@MMK_R_tbar" = -41;
 "@MMK_R_u" = -49;
 "@MMK_R_v" = -55;
 "@MMK_R_y.calt" = -50;
+"@MMK_R_zero" = -50;
 Glottalstop = -43;
 Saltillo = -52;
+ampersand = -38;
+approxequal = -48;
+asciicircum = -60;
+asciitilde = -58;
+asterisk = -52;
+backslash = -90;
 "beta-latin" = 10;
+braceleft = -49;
+dagger = -48;
+daggerdbl = -41;
+downArrow = -61;
 eopen = -33;
+exclam = -65;
 ezhreversed = -11;
 glottalstop = -50;
+glottalstopreversed = -56;
 glottalstopsmall = -50;
+greater = -48;
+leftWhiteIndex = -52;
+less = -49;
+multiply = -48;
+northEastArrow = -50;
 ou = -46;
+parenleft = -41;
+question = -53;
+registered = -49;
 rtail = -41;
 saltillo = -50;
+slash = 30;
+southEastArrow = -50;
+trademark = -57;
+upArrow = -55;
 };
 "@MMK_L_nu" = {
 "@MMK_R_Alpha" = -42;
@@ -137960,6 +137996,9 @@ thorn = -32;
 trademark = -37;
 ubar = 0;
 underscore = -121;
+pacute = -27;
+pdotaccent = -27;
+phook = -27;
 };
 "@MMK_L_soft-cy" = {
 "@MMK_R_Che-cy" = -70;
@@ -138927,6 +138966,7 @@ Qhooktail = {
 "@MMK_R_nhookleft" = 20;
 "beta-latin" = 20;
 esh = 20;
+slash = 40;
 };
 Saltillo = {
 "@MMK_R_A" = -30;
@@ -139232,6 +139272,7 @@ backslash = {
 "@MMK_R_Hturned" = -140;
 "@MMK_R_J" = -53;
 "@MMK_R_Je-cy" = -53;
+"@MMK_R_Lbelt" = -100;
 "@MMK_R_Mturned" = -78;
 "@MMK_R_Nhookleft" = 69;
 "@MMK_R_O" = -77;
@@ -139265,7 +139306,7 @@ backslash = {
 "@MMK_R_braceright" = 40;
 "@MMK_R_che-cy" = -130;
 "@MMK_R_chi" = 40;
-"@MMK_R_chi-ltn" = 20;
+"@MMK_R_chi-ltn" = 30;
 "@MMK_R_de-cy" = 20;
 "@MMK_R_de-cy.bg" = 0;
 "@MMK_R_delta" = -51;
@@ -139319,17 +139360,19 @@ backslash = {
 "@MMK_R_zero.case" = -77;
 "@MMK_R_zeta" = -31;
 Glottalstop = -120;
+Itildebelow = 40;
 Oslash = -26;
 Oslashacute = -25;
 Saltillo = -86;
 Upsilontonos = -38;
+Ystroke = -122;
 ampersand = -30;
 asterisk = -129;
 backslash = -180;
 "beta-latin" = 50;
 eopen = -29;
 "er-cy" = 50;
-esh = 30;
+esh = 50;
 exclam = -82;
 exclam.case = -80;
 exclamdown = 15;
@@ -139360,6 +139403,7 @@ thorn = 41;
 tretroflexhook = -42;
 underscore = 70;
 xi = -21;
+lcircumflexbelow = 50;
 };
 bar = {
 "beta-latin" = 10;
@@ -139999,6 +140043,32 @@ trademark = 0;
 heng = {
 "@MMK_R_Mturned" = -30;
 "@MMK_R_h" = -10;
+"@MMK_R_N" = -9;
+"@MMK_R_T" = -17;
+"@MMK_R_U" = -20;
+"@MMK_R_Ubar" = -14;
+"@MMK_R_V" = -19;
+"@MMK_R_W" = -19;
+"@MMK_R_Yss" = -30;
+"@MMK_R_a" = -9;
+"@MMK_R_nine" = -16;
+"@MMK_R_quoteleft" = -20;
+"@MMK_R_quoteright" = -41;
+"@MMK_R_seven" = -9;
+"@MMK_R_t" = -14;
+"@MMK_R_tbar" = -10;
+"@MMK_R_two" = -10;
+"@MMK_R_u" = -14;
+"@MMK_R_v" = -17;
+"@MMK_R_x" = -10;
+"@MMK_R_y" = -10;
+"@MMK_R_z" = -10;
+Saltillo = -20;
+asterisk = -10;
+backslash = -59;
+exclam = -28;
+leftWhiteIndex = -16;
+question = -10;
 };
 hturned = {
 "@MMK_R_O" = -13;
@@ -140462,6 +140532,10 @@ parenright = 40;
 question = 19;
 questiondown.case = -29;
 underscore = 38;
+pacute = 25;
+pdotaccent = 25;
+phook = 25;
+pstroke = 25;
 };
 parenright = {
 "@MMK_R_A" = -10;
@@ -140994,6 +141068,10 @@ parenleft = -80;
 parenright = 38;
 question = -160;
 thorn = 18;
+pacute = 21;
+pdotaccent = 21;
+phook = 21;
+pstroke = 21;
 };
 uogonek = {
 "@MMK_R_Nhookleft" = 10;
@@ -141057,6 +141135,39 @@ ystroke.calt = {
 "@MMK_R_be-cy.srb" = -19;
 "@MMK_R_soft-cy.bg" = 0;
 "@MMK_R_u-cy" = 0;
+};
+Ohorn = {
+backslash = -17;
+};
+Ohornacute = {
+backslash = -17;
+};
+Ohorndotbelow = {
+backslash = -17;
+};
+Ohorngrave = {
+backslash = -17;
+};
+Ohornhookabove = {
+backslash = -17;
+};
+ohorn = {
+backslash = -18;
+};
+ohornacute = {
+backslash = -18;
+};
+ohorndotbelow = {
+backslash = -18;
+};
+ohorngrave = {
+backslash = -18;
+};
+ohornhookabove = {
+backslash = -18;
+};
+ohorntilde = {
+backslash = -18;
 };
 };
 };
