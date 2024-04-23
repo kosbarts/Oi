@@ -9,4 +9,6 @@
 # Names should be added to this file as:
 # Name <email address>
 
-Kostas Bartsokas <kosbarts@gmail.com>
+Kostas Bartsokas <kosbarts@gmail.com> <kostas@foundryfivetype.com>
+Mohamad Dakak <mohamad@foundryfivetype.com>
+Pria Ravichandran <pria@foundryfivetype.com>
