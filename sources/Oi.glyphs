@@ -5,7 +5,8 @@ DisplayStrings = (
 "/la-tamil/la_iMatra-tamil/la_iiMatra-tamil/la_uMatra-tamil/la_uuMatra-tamil/ma_pulli-tamil/la_pulli-tamil/la_anusvara-tamil \012aá/abreve/ca_uuMatra-tamil/ai-tamil/e-tamil \012/pa-tamil/pa-tamil/Placeholder/pa-tamil/Placeholder/pa-tamil/Placeholder/e-tamil/Placeholder/e-tamil/e-tamil",
 "\012/en-cy/ii-cy.loclBGR/i-cy/de-cy.loclBGR/en-cy.loclBGR \012/en-cy/en-cy/en-cy/Placeholder/en-cy/Placeholder/o-cy/Placeholder/o-cy/o-cy/o-cy \012/Ka-cy/El-cy/U-cy/U_acutecomb-cy/Ushort-cy/Umacron-cy/Udieresis-cy/Uhungarumlaut-cy/Yeru-cy/Yeru_acutecomb-cy/Yerudieresis-cy \012/En-cy/En-cy/En-cy/Placeholder/En-cy/Placeholder/O-cy/Placeholder/O-cy/O-cy/O-cy \012/de-cy.loclBGR o/space ahead/space and/space bein/de-cy.loclBGR",
 "Oi/space Tamil/space is/space coming\012\012\012\012\012\012/oo-tamil/ya-tamil/pulli-tamil/space/ta-tamil/ma-tamil/iMatra-tamil/llla-tamil/pulli-tamil/space/va-tamil/ra-tamil/uMatra-tamil/ka-tamil/iMatra-tamil/rra-tamil/ta-tamil/uMatra-tamil/space \012/oo-tamil/ya-tamil/pulli-tamil/space/ta-tamil/ma-tamil/iMatra-tamil/llla-tamil/pulli-tamil/space/va-tamil/ra-tamil/uMatra-tamil/ka-tamil/iMatra-tamil/rra-tamil/ta-tamil/uMatra-tamil/space \012",
-"/space/dieresiscomb/space/dieresiscomb"
+"/space/dieresiscomb/space/dieresiscomb",
+"\012/sukun-ar/shadda-ar/kasra-ar/damma-ar/fatha-ar/kasratan-ar/dammatan-ar/fathatan-ar/hamzabelow-ar/hamzaabove-ar/madda-ar/alefabove-ar/kashida-ar/behDotless-ar \012/kasratan-ar/shadda-ar/kasra-ar/shadda-ar/shaddaKasra-ar/shaddaKasratan-ar \012"
 );
 classes = (
 {
@@ -142424,6 +142425,16 @@ color = 5;
 glyphname = "kashida-ar";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{155, -59}";
+},
+{
+name = top;
+position = "{154, 460}";
+}
+);
 layerId = "863809E3-B3D3-4728-B9C6-73F0AB5A9F00";
 paths = (
 {
@@ -183276,6 +183287,10 @@ name = _top;
 position = "{169, 498}";
 },
 {
+name = bottom;
+position = "{193, 549}";
+},
+{
 name = top;
 position = "{195, 750}";
 }
@@ -183452,7 +183467,7 @@ name = "shadda-ar";
 },
 {
 name = "alefbelow-ar";
-transform = "{1, 0, 0, 1, 121, 827}";
+transform = "{1, 0, 0, 1, 127, 337}";
 }
 );
 layerId = "863809E3-B3D3-4728-B9C6-73F0AB5A9F00";
@@ -183576,7 +183591,7 @@ transform = "{1, 0, 0, 1, 31, 222}";
 },
 {
 name = "kasratan-ar";
-transform = "{1, 0, 0, 1, 0, 699}";
+transform = "{1, 0, 0, 1, 2, 701}";
 }
 );
 layerId = "863809E3-B3D3-4728-B9C6-73F0AB5A9F00";
