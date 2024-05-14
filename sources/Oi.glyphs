@@ -110,16 +110,6 @@ languagesystem latn ISM;
 languagesystem latn SKS;
 languagesystem latn LSM;
 languagesystem latn SSM;
-languagesystem latn BMB;
-languagesystem latn JUL;
-languagesystem latn IBO;
-languagesystem latn LUG;
-languagesystem latn DAG;
-languagesystem latn BTI;
-languagesystem latn BML;
-languagesystem latn NKO;
-languagesystem latn GKP;
-languagesystem latn LAM;
 languagesystem latn CAT;
 languagesystem latn NLD;
 
@@ -133,6 +123,7 @@ languagesystem cyrl CHU;
 languagesystem cyrl SRB;
 
 languagesystem grek dflt;
+
 
 languagesystem tml2 dflt;
 languagesystem taml dflt;
@@ -330,26 +321,6 @@ lookup locl_latn_3 {
 	language LSM;
 	sub Eng by Eng.loclNSM;
 	language SSM;
-	sub Eng by Eng.loclNSM;
-	language BMB;
-	sub Eng by Eng.loclNSM;
-	language JUL;
-	sub Eng by Eng.loclNSM;
-	language IBO;
-	sub Eng by Eng.loclNSM;
-	language LUG;
-	sub Eng by Eng.loclNSM;
-	language DAG;
-	sub Eng by Eng.loclNSM;
-	language BTI;
-	sub Eng by Eng.loclNSM;
-	language BML;
-	sub Eng by Eng.loclNSM;
-	language NKO;
-	sub Eng by Eng.loclNSM;
-	language GKP;
-	sub Eng by Eng.loclNSM;
-	language LAM;
 	sub Eng by Eng.loclNSM;
 } locl_latn_3;
 
