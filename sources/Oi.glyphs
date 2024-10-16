@@ -7,8 +7,9 @@ DisplayStrings = (
 "Oi/space Tamil/space is/space coming\012\012\012\012\012\012/oo-tamil/ya-tamil/pulli-tamil/space/ta-tamil/ma-tamil/iMatra-tamil/llla-tamil/pulli-tamil/space/va-tamil/ra-tamil/uMatra-tamil/ka-tamil/iMatra-tamil/rra-tamil/ta-tamil/uMatra-tamil/space \012/oo-tamil/ya-tamil/pulli-tamil/space/ta-tamil/ma-tamil/iMatra-tamil/llla-tamil/pulli-tamil/space/va-tamil/ra-tamil/uMatra-tamil/ka-tamil/iMatra-tamil/rra-tamil/ta-tamil/uMatra-tamil/space \012",
 "/space/dieresiscomb/space/dieresiscomb",
 "\012/sukun-ar/shadda-ar/kasra-ar/damma-ar/fatha-ar/kasratan-ar/dammatan-ar/fathatan-ar/hamzabelow-ar/hamzaabove-ar/madda-ar/alefabove-ar/kashida-ar/behDotless-ar \012/kasratan-ar/shadda-ar/kasra-ar/shadda-ar/shaddaKasra-ar/shaddaKasratan-ar \012",
-"/alefMaksura-ar",
-"/wawHamzaabove-ar"
+"/wawHamzaabove-ar/hamzabelow-ar",
+"/wawHamzaabove-ar",
+"/macronacutecomb"
 );
 classes = (
 {
@@ -179,7 +180,7 @@ name = aalt;
 },
 {
 code = "lookup ccmp_Other_1 {
-	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb candraBinducomb caroncomb circumflexcomb commaabovecomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb verticallineabovecomb macrongravecomb acutemacroncomb];
+	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb candraBinducomb caroncomb circumflexcomb commaabovecomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb verticallineabovecomb macrongravecomb acutemacroncomb graveacutegravecomb gravemacroncomb macronacutecomb macrongravecomb ];
 	@CombiningNonTopAccents = [brevebelowcomb breveinvertedbelowcomb cedillacomb circumflexbelowcomb dieresisbelowcomb dotbelowcomb lowlinecomb macronbelowcomb ogonekcomb ringbelowcomb tildebelowcomb verticallinebelowcomb dotaboverightcomb horncomb tildeoverlaycomb];
 	sub [i j istroke i-cy]' @CombiningTopAccents by [idotless jdotless istrokedotless idotless];
 	sub iogonek' @CombiningTopAccents by iogonekdotless;
@@ -242,7 +243,8 @@ lookup ccmp_arab_1 {
 } ccmp_arab_1;
 
 script arab;
-lookup ccmp_arab_1;";
+lookup ccmp_arab_1;
+";
 name = ccmp;
 },
 {
