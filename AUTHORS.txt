@@ -6,3 +6,4 @@
 # Name or Organization <email address>
 
 Kostas Bartsokas <kosbarts@gmail.com> <kostas@foundryfivetype.com>
+Mohamad Dakak <mhmd.dakak@gmail.com> <mohamad@foundryfivetype.com>
